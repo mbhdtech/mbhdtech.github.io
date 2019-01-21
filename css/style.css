@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+body,html {
+    padding:0;
+    margin:0;
+    height: 100%;
+    font-family:lato;
+    background-color:#000;
+    background-size:cover
+}
+
+a {
+    text-decoration:none;
+    color:#FAFAFA
+}
+
+.layout {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    color:#FAFAFA;
+    background-color: #000
+}
+
+.layout .top {
+    padding-top: 20%
+}
+
+.layout .topAbout {
+    padding-top: 5%
+}
+
+.layout .top .pageTitle{
+    font-size:50px;
+    font-weight:400
+}
+
+.layout .topAbout .pageTitle{
+    font-size:55px;
+    font-weight:400
+}
+
+.layout .top .subTitle{
+    font-size:35px;
+    font-weight:300
+}
+
+.layout .topAbout .subTitle{
+    font-size:35px;
+    font-weight:300
+}
+
+.layout .bottom {
+    padding-top: 20px
+}
+
+.layout .bottom .contact {
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight:300
+}
+
+.aboutcontent {
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    padding-top: 20px;
+    width: 55%;
+    float: left;
+    font-size: 18px
+}
+
+.right {
+    padding-top: 20px;
+    width: 35%;
+    float: right;
+}
+
+.right .mediaLinks {
+    margin:  0 auto
+}
+
+.socialIcons{
+    color: #FAFAFA;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.socialIcons:hover{
+    color: #C0C0C0
+}
+
+.link {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+
+.link:hover {
+    color: #C0C0C0;
+}
+
+.blogLink{
+    border-bottom: 1px solid #ADD8E6;
+}
+
+.blogLink:hover {
+    color: #ADD8E6
+}
